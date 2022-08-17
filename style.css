@@ -1,18 +1,24 @@
-#old li {
+.old div{
   display: inline-block;
   margin: 10px;
   padding: 10px;
   margin-bottom: 300px;
   height: 3em;
 }
-#modern {
+.modern {
+    padding:0px;
+    margin:0px;
+}
+.modern{
   display: flex;
-  justify-content: space-between;
-
+  justify-items:center;
+  justify-content: space-evenly;  
   list-style: none;
   height: 3em;
-  align-items: center;
+  width: 25%;
+ 
+
 }
-li:hover {
-  font-size: 1.3em;
+div:hover {
+  font-size: 1.5em;
 }
